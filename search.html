@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Search</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</style>
+</head>
+
+
+<body>
+      <div class="header_resize"> 
+      <div class="logo"></div>
+      <div class="menu_nav">
+        <ul>
+          <li><a href="search.html">New Booking</a></li>
+          <li><a href="updateform.html">Change Booking & Print</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        </div>
+         </div>
+		 
+        <!-- ------------------------------------------------------------- -->
+
+<div class="content_resize">
+<h1>BOOK TRAIN</h1><br><br>
+<form method ="post" action="tripinformation.php">  
+<div>
+
+<div>
+From: 
+<select name="departuref">
+<option value="Riyadh"> Riyadh</option>
+<option value="Jeddah">Jeddah</option>
+<option value="Dammam">Dammam</option>
+</select>
+
+to:
+<select name="destinationf">
+<option value="Riyadh"> Riyadh</option>
+<option value="Jeddah">Jeddah</option>
+<option value="Dammam">Dammam</option>
+</select>
+<br><br>
+
+<label>number of passenger </label><br><input type ="number" name = "num_seatf"> 
+<input type ="submit" name = "button" value="search"> 
+</div>
+
+<br><br><br>
+</body>
+</html>
